@@ -1,0 +1,23 @@
+山不野智能包装质检管理平台——提交文件清单
+
+frontend      前端源码、页面组件、Vite 与 TypeScript 配置
+backend       Express API、SQLite 数据层、报告与日志功能
+model         yolo_hrca_seg 模型命名及版本迭代说明
+data          可直接演示的数据库和诊断报告样例
+docs          完整功能、开发和运行说明
+presentation  山不野项目演示 PPT
+screenshots   平台运行截图和生产线架构配图
+scripts       防重复启动、独立日志、一键关闭内部脚本
+
+根目录文件：
+.gitattributes
+.gitignore
+.env.example
+metadata.json
+package.json
+package-lock.json
+README.md
+一键启动.bat
+一键关闭.bat
+
+已排除：node_modules、logs、运行状态文件、数据库 WAL/SHM 临时文件、PPT 检查中间文件。

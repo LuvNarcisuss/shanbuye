@@ -1,0 +1,7 @@
+{
+  "name": "Intelligent Packaging Inspection Management Platform",
+  "description": "A comprehensive digital platform for multi-line packaging inspection, featuring real-time monitoring, rule configuration, model management, and data analytics.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
